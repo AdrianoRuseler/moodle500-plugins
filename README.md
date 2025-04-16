@@ -355,5 +355,10 @@ git submodule add -b main https://github.com/moodlehq/moodle-mod_survey.git mod/
 ## Take a Look
 
 - https://github.com/moodleworkplace/moodle-block_rbreport
+```bash
+git submodule add -b MOODLE_500_STABLE https://github.com/moodleworkplace/moodle-block_rbreport.git blocks/rbreport
+```
+
+
 
   
