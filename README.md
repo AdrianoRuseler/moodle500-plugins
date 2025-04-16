@@ -344,5 +344,11 @@ git submodule add -b master https://github.com/moodleworkplace/moodle-format_wpl
 
 ## Removed from core
 - https://github.com/moodlehq/moodle-mod_chat
+```bash
+git submodule add -b main https://github.com/moodlehq/moodle-mod_chat.git mod/chat
+```
 - https://github.com/moodlehq/moodle-mod_survey
+```bash
+git submodule add -b main https://github.com/moodlehq/moodle-mod_survey.git mod/survey
+```
   
