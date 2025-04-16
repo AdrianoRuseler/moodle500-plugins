@@ -341,3 +341,8 @@ git submodule add -b master https://github.com/learnweb/moodle-tool_lifecycle.gi
 ```bash
 git submodule add -b master https://github.com/moodleworkplace/moodle-format_wplist.git course/format/wplist
 ```
+
+## Removed from core
+- https://github.com/moodlehq/moodle-mod_chat
+- https://github.com/moodlehq/moodle-mod_survey
+  
