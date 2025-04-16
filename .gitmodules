@@ -6,3 +6,7 @@
 	path = moodle/mod/chat
 	url = https://github.com/moodlehq/moodle-mod_chat.git
 	branch = main
+[submodule "moodle/blocks/rbreport"]
+	path = moodle/blocks/rbreport
+	url = https://github.com/moodleworkplace/moodle-block_rbreport.git
+	branch = MOODLE_500_STABLE
