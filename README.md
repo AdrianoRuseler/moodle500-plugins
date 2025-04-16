@@ -351,4 +351,9 @@ git submodule add -b main https://github.com/moodlehq/moodle-mod_chat.git mod/ch
 ```bash
 git submodule add -b main https://github.com/moodlehq/moodle-mod_survey.git mod/survey
 ```
+
+## Take a Look
+
+- https://github.com/moodleworkplace/moodle-block_rbreport
+
   
