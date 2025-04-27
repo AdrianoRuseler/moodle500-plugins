@@ -75,6 +75,8 @@ git submodule add -b master https://github.com/xow/moodle-mod_quizgame.git mod/q
 ```bash
 git submodule add -b master https://github.com/jcrodriguez-dis/moodle-mod_vpl.git mod/vpl
 ```
+A verificação de dependência falhou para qtype_vplquestion
+
 - https://github.com/davosmith/moodle-checklist
 ```bash
 git submodule add -b master https://github.com/davosmith/moodle-checklist.git mod/checklist
