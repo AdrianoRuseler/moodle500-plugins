@@ -75,8 +75,6 @@ git submodule add -b master https://github.com/xow/moodle-mod_quizgame.git mod/q
 ```bash
 git submodule add -b master https://github.com/jcrodriguez-dis/moodle-mod_vpl.git mod/vpl
 ```
-A verificação de dependência falhou para qtype_vplquestion
-
 - https://github.com/davosmith/moodle-checklist
 ```bash
 git submodule add -b master https://github.com/davosmith/moodle-checklist.git mod/checklist
@@ -228,6 +226,8 @@ git submodule add -b master https://github.com/gbateson/moodle-qtype_essayautogr
 git submodule add -b master https://github.com/trampgeek/moodle-qbehaviour_adaptive_adapted_for_coderunner.git question/behaviour/adaptive_adapted_for_coderunner
 git submodule add -b master https://github.com/trampgeek/moodle-qtype_coderunner.git question/type/coderunner
 ```
+-->qtype_coderunner
+Default exception handler: Erro ao escrever na base de dados Debug: Column 'parent' cannot be null
 
 - https://github.com/moodleou/moodle-qtype_pmatch
 - https://github.com/moodleou/moodle-qtype_varnumunit
