@@ -70,10 +70,6 @@
 	path = moodle/question/type/coderunner
 	url = https://github.com/trampgeek/moodle-qtype_coderunner.git
 	branch = master
-[submodule "moodle/question/type/vplquestion"]
-	path = moodle/question/type/vplquestion
-	url = https://gricad-gitlab.univ-grenoble-alpes.fr/moodle-plugins/moodle-qtype_vplquestion.git
-	branch = master
 [submodule "moodle/lib/editor/tiny/plugins/cloze"]
 	path = moodle/lib/editor/tiny/plugins/cloze
 	url = https://github.com/srobotta/moodle-tiny_cloze.git
