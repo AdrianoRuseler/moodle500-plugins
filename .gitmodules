@@ -62,10 +62,6 @@
 	path = moodle/question/type/essayautograde
 	url = https://github.com/gbateson/moodle-qtype_essayautograde.git
 	branch = master
-[submodule "moodle/question/behaviour/adaptive_adapted_for_coderunner"]
-	path = moodle/question/behaviour/adaptive_adapted_for_coderunner
-	url = https://github.com/trampgeek/moodle-qbehaviour_adaptive_adapted_for_coderunner.git
-	branch = master
 [submodule "moodle/question/type/coderunner"]
 	path = moodle/question/type/coderunner
 	url = https://github.com/trampgeek/moodle-qtype_coderunner.git
