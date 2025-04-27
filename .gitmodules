@@ -14,3 +14,19 @@
 	path = moodle/lib/mathjax
 	url = https://github.com/mathjax/MathJax.git
 	branch = master
+[submodule "moodle/question/behaviour/dfexplicitvaildate"]
+	path = moodle/question/behaviour/dfexplicitvaildate
+	url = https://github.com/maths/moodle-qbehaviour_dfexplicitvaildate.git
+	branch = master
+[submodule "moodle/question/behaviour/dfcbmexplicitvaildate"]
+	path = moodle/question/behaviour/dfcbmexplicitvaildate
+	url = https://github.com/maths/moodle-qbehaviour_dfcbmexplicitvaildate.git
+	branch = master
+[submodule "moodle/question/behaviour/adaptivemultipart"]
+	path = moodle/question/behaviour/adaptivemultipart
+	url = https://github.com/maths/moodle-qbehaviour_adaptivemultipart.git
+	branch = master
+[submodule "moodle/question/type/stack"]
+	path = moodle/question/type/stack
+	url = https://github.com/maths/moodle-qtype_stack.git
+	branch = master
