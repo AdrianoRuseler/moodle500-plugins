@@ -330,18 +330,6 @@ git submodule add -b develop https://github.com/turnitin/moodle-plagiarism_turni
 git submodule add -b MOODLE_405_STABLE https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
 ```
 
-## REMOVED
-
-
-- https://github.com/learnweb/moodle-tool_lifecycle
-```bash
-git submodule add -b master https://github.com/learnweb/moodle-tool_lifecycle.git admin/tool/lifecycle
-```
-- https://github.com/moodleworkplace/moodle-format_wplist
-```bash
-git submodule add -b master https://github.com/moodleworkplace/moodle-format_wplist.git course/format/wplist
-```
-
 ## Removed from core
 - https://github.com/moodlehq/moodle-mod_chat
 ```bash
@@ -358,7 +346,20 @@ git submodule add -b main https://github.com/moodlehq/moodle-mod_survey.git mod/
 ```bash
 git submodule add -b MOODLE_500_STABLE https://github.com/moodleworkplace/moodle-block_rbreport.git blocks/rbreport
 ```
-
-
-
-  
+## STACK question type - TODO!
+- https://github.com/maths/moodle-qbehaviour_dfexplicitvaildate
+```bash
+git submodule add -b master https://github.com/maths/moodle-qbehaviour_dfexplicitvaildate.git question/behaviour/dfexplicitvaildate
+```
+- https://github.com/maths/moodle-qbehaviour_dfcbmexplicitvaildate
+```bash
+git submodule add -b master https://github.com/maths/moodle-qbehaviour_dfcbmexplicitvaildate.git question/behaviour/dfcbmexplicitvaildate
+```
+- https://github.com/maths/moodle-qbehaviour_adaptivemultipart
+```bash
+git submodule add -b master https://github.com/maths/moodle-qbehaviour_adaptivemultipart.git question/behaviour/adaptivemultipart
+```		
+- https://github.com/maths/moodle-qtype_stack
+```bash
+git submodule add -b master https://github.com/maths/moodle-qtype_stack.git question/type/stack
+``` 
