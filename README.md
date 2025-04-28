@@ -189,7 +189,7 @@ git submodule add -b main https://github.com/moodleou/moodle-report_customsql.gi
 ### AVAILABILITY
 - https://github.com/ewallah/moodle-availability_relativedate
 ```bash
-git submodule add -b main https://github.com/ewallah/moodle-availability_relativedate.git availability/condition/relativedate
+git submodule add -b MOODLE_500_STABLE https://github.com/ewallah/moodle-availability_relativedate.git availability/condition/relativedate
 ```
 
 - https://github.com/bdecentgmbh/moodle-availability_sectioncompleted
