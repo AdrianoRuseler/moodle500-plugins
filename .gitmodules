@@ -194,3 +194,19 @@
 	path = moodle/course/format/etask
 	url = https://gitlab.com/drlikm/format_etask.git
 	branch = FORMAT_ETASK_24_STABLE
+[submodule "moodle/admin/tool/coursearchiver"]
+	path = moodle/admin/tool/coursearchiver
+	url = https://github.com/Syxton/moodle-tool_coursearchiver.git
+	branch = master
+[submodule "moodle/admin/tool/trigger"]
+	path = moodle/admin/tool/trigger
+	url = https://github.com/catalyst/moodle-tool_trigger.git
+	branch = MOODLE_404_STABLE
+[submodule "moodle/admin/tool/dynamic_cohorts"]
+	path = moodle/admin/tool/dynamic_cohorts
+	url = https://github.com/catalyst/moodle-tool_dynamic_cohorts.git
+	branch = MOODLE_404_STABLE
+[submodule "moodle/admin/tool/redis"]
+	path = moodle/admin/tool/redis
+	url = https://github.com/moodle-an-hochschulen/moodle-tool_redis.git
+	branch = MOODLE_405_STABLE
