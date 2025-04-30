@@ -1,4 +1,4 @@
-# moodle500-plugins TODO
+# moodle500-plugins
 Plugins for Moodle 5.0
 
 ## Moodle Update
