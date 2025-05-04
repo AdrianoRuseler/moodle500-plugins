@@ -17,6 +17,13 @@ jobs:
           submodules: true
         continue-on-error: false  # Fails if the checkout step has an issue
 
+      - name: Display Current Directory Structure
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Listing files and folders:"
+          ls -lah
+        shell: bash
+        
       - name: Update Git Submodules
         run: |
           git submodule update --init || { echo "Submodule initialization failed"; exit 1; }
