@@ -26,7 +26,6 @@ jobs:
           echo "Starting submodule update..."
           git submodule sync --recursive || echo "Submodule Sync failed, skipping..."
           git submodule update --init --recursive || echo "Submodule initialization failed, skipping..."
-          git submodule update --remote --merge || echo "Submodule update failed, skipping..."
           echo "Submodules updated successfully."
         shell: bash
         
