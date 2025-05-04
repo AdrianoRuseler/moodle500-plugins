@@ -24,8 +24,9 @@ jobs:
       - name: Update Git Submodules
         run: |
           echo "Starting submodule update..."
-          git submodule update --init --recursive || { echo "Submodule initialization failed"; exit 1; }
-          git submodule update --remote --merge || { echo "Submodule update failed"; exit 1; }
+          git submodule sync --recursive || { echo "Submodule Sync failed!"; exit 1; }
+          git submodule update --init --recursive || { echo "Submodule initialization failed!"; exit 1; }
+          git submodule update --remote --merge || { echo "Submodule update failed!"; exit 1; }
           echo "Submodules updated successfully."
         shell: bash
         
