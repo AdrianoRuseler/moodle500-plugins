@@ -214,3 +214,7 @@
 	path = moodle/admin/tool/redis
 	url = https://github.com/moodle-an-hochschulen/moodle-tool_redis.git
 	branch = MOODLE_500_STABLE
+[submodule "moodle/course/format/tiles"]
+	path = moodle/course/format/tiles
+	url = https://bitbucket.org/dw8/moodle-format_tiles.git
+	branch = moodle50
