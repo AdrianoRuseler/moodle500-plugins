@@ -206,3 +206,7 @@
 	path = moodle/admin/tool/redis
 	url = https://github.com/moodle-an-hochschulen/moodle-tool_redis.git
 	branch = MOODLE_405_STABLE
+[submodule "moodle/course/format/softcourse"]
+	path = moodle/course/format/softcourse
+	url = https://github.com/DigiDago/moodle-format_softcourse.git
+	branch = MOODLE_500_STABLE
