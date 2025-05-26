@@ -210,3 +210,11 @@
 	path = moodle/course/format/softcourse
 	url = https://github.com/DigiDago/moodle-format_softcourse.git
 	branch = MOODLE_500_STABLE
+[submodule "moodle/question/behaviour/adaptive_adapted_for_coderunner"]
+	path = moodle/question/behaviour/adaptive_adapted_for_coderunner
+	url = https://github.com/trampgeek/moodle-qbehaviour_adaptive_adapted_for_coderunner.git
+	branch = master
+[submodule "moodle/question/type/coderunner"]
+	path = moodle/question/type/coderunner
+	url = https://github.com/trampgeek/moodle-qtype_coderunner.git
+	branch = master
