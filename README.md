@@ -265,7 +265,7 @@ git submodule add -b MOODLE_404_STABLE https://github.com/catalyst/moodle-tool_d
 ```
 - https://github.com/moodle-an-hochschulen/moodle-tool_redis
 ```bash
-git submodule add -b MOODLE_405_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_redis.git admin/tool/redis
+git submodule add -b MOODLE_500_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_redis.git admin/tool/redis
 ```
 
 ### ENROL
@@ -286,12 +286,12 @@ git submodule add -b main https://github.com/bynare/moodle-enrol_auto.git enrol/
 
 - https://github.com/DigiDago/moodle-format_softcourse
 ```bash
-git submodule add -b MOODLE_405_STABLE https://github.com/DigiDago/moodle-format_softcourse.git course/format/softcourse
+git submodule add -b MOODLE_500_STABLE https://github.com/DigiDago/moodle-format_softcourse.git course/format/softcourse
 ```
 
 - https://bitbucket.org/dw8/moodle-format_tiles
 ```bash
-git submodule add -b moodle45 https://bitbucket.org/dw8/moodle-format_tiles.git course/format/tiles
+git submodule add -b moodle50 https://bitbucket.org/dw8/moodle-format_tiles.git course/format/tiles
 ```
 
 - https://gitlab.com/drlikm/format_etask
