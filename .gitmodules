@@ -218,3 +218,7 @@
 	path = moodle/course/format/tiles
 	url = https://bitbucket.org/dw8/moodle-format_tiles.git
 	branch = moodle50
+[submodule "moodle/theme/boost_union"]
+	path = moodle/theme/boost_union
+	url = https://github.com/moodle-an-hochschulen/moodle-theme_boost_union.git
+	branch = MOODLE_500_STABLE
