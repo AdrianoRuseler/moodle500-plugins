@@ -214,3 +214,7 @@
 	path = moodle/question/type/coderunner
 	url = https://github.com/trampgeek/moodle-qtype_coderunner.git
 	branch = master
+[submodule "moodle/admin/tool/redis"]
+	path = moodle/admin/tool/redis
+	url = https://github.com/moodle-an-hochschulen/moodle-tool_redis.git
+	branch = MOODLE_500_STABLE
