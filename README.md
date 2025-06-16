@@ -89,10 +89,8 @@ git submodule add -b MOODLE_405_STABLE https://github.com/academic-moodle-cooper
 ```
 - https://github.com/markn86/moodle-mod_customcert
 ```bash
-git submodule add -b MOODLE_404_STABLE https://github.com/markn86/moodle-mod_customcert.git mod/customcert
+git submodule add -b MOODLE_500_STABLE https://github.com/markn86/moodle-mod_customcert.git mod/customcert
 ```
-No subplugintypes defined in /var/www/html/mdl50/mod/customcert/db/subplugins.json. Falling back to deprecated plugintypes value. See MDL-83705 for further information.
-
 - https://github.com/bostelm/moodle-mod_scheduler
 ```bash
 git submodule add -b master https://github.com/bostelm/moodle-mod_scheduler.git mod/scheduler
