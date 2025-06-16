@@ -330,7 +330,7 @@ git submodule add -b develop https://github.com/turnitin/moodle-plagiarism_turni
 
 - https://github.com/moodleuulm/moodle-local_sandbox
 ```bash
-git submodule add -b MOODLE_405_STABLE https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
+git submodule add -b MOODLE_500_STABLE https://github.com/moodleuulm/moodle-local_sandbox.git local/sandbox
 ```
 
 ## Removed from core
