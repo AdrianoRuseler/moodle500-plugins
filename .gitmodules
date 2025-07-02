@@ -226,3 +226,7 @@
 	path = moodle/mod/coursecertificate
 	url = https://github.com/moodleworkplace/moodle-mod_coursecertificate.git
 	branch = MOODLE_500_STABLE
+[submodule "moodle/mod/hvp"]
+	path = moodle/mod/hvp
+	url = https://github.com/h5p/h5p-moodle-plugin.git
+	branch = stable
