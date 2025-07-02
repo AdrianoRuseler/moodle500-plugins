@@ -222,3 +222,7 @@
 	path = moodle/mod/customcert
 	url = https://github.com/markn86/moodle-mod_customcert.git
 	branch = MOODLE_500_STABLE
+[submodule "moodle/mod/coursecertificate"]
+	path = moodle/mod/coursecertificate
+	url = https://github.com/moodleworkplace/moodle-mod_coursecertificate.git
+	branch = MOODLE_500_STABLE
