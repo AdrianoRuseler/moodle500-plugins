@@ -230,3 +230,7 @@
 	path = moodle/mod/hvp
 	url = https://github.com/h5p/h5p-moodle-plugin.git
 	branch = stable
+[submodule "moodle/theme/adaptable"]
+	path = moodle/theme/adaptable
+	url = https://github.com/gjbarnard/moodle-theme_adaptable.git
+	branch = main
