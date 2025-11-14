@@ -238,3 +238,7 @@
 	path = moodle/mod/publication
 	url = https://github.com/academic-moodle-cooperation/moodle-mod_publication.git
 	branch = MOODLE_500_STABLE
+[submodule "moodle/filter/ace_inline"]
+	path = moodle/filter/ace_inline
+	url = https://github.com/trampgeek/moodle-filter_ace_inline.git
+	branch = main
