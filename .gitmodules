@@ -246,3 +246,7 @@
 	path = moodle/admin/tool/opcache
 	url = https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git
 	branch = MOODLE_500_STABLE
+[submodule "moodle/enrol/autoenrol"]
+	path = moodle/enrol/autoenrol
+	url = https://github.com/bobopinna/moodle-enrol_autoenrol.git
+	branch = master
