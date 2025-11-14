@@ -242,10 +242,6 @@
 	path = moodle/filter/ace_inline
 	url = https://github.com/trampgeek/moodle-filter_ace_inline.git
 	branch = main
-[submodule "moodle/blocks/quickmail"]
-	path = moodle/blocks/quickmail
-	url = https://github.com/lsuonline/lsuce-block_quickmail.git
-	branch = master
 [submodule "moodle/admin/tool/opcache"]
 	path = moodle/admin/tool/opcache
 	url = https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git
