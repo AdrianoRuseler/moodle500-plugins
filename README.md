@@ -266,6 +266,11 @@ git submodule add -b MOODLE_404_STABLE https://github.com/catalyst/moodle-tool_d
 git submodule add -b MOODLE_500_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_redis.git admin/tool/redis
 ```
 
+- https://github.com/moodle-an-hochschulen/moodle-tool_opcache
+```bash
+git submodule add -b MOODLE_500_STABLE https://github.com/moodle-an-hochschulen/moodle-tool_opcache.git admin/tool/opcache
+```
+
 ### ENROL
 
 ### TO REMOVE:
