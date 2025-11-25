@@ -1,7 +1,9 @@
 name: Update Moodle Plugins Submodules
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual triggering
+  schedule:
+    - cron: '0 2 * * *' # Runs every day at 2:00 AM UTC (Optional)
 
 jobs:
   update-submodules:
