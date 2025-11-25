@@ -1,0 +1,52 @@
+name: Update Moodle Plugins Submodules
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Configure SSH and Git
+        run: |
+          # 1. Configure Git Identity
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+          # 2. Setup SSH Key manually (Avoids the "undefined" error)
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          
+          # 3. Add GitHub to known hosts to avoid "Host key verification failed"
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
+      - name: Execute Update Script
+        env:
+          FOLDERNAME: moodle500-plugins
+        run: |
+          echo "Clone git project..."
+          # This will now automatically use the ~/.ssh/id_ed25519 key we just created
+          git clone git@github.com:AdrianoRuseler/moodle500-plugins.git
+          
+          cd $FOLDERNAME
+          
+          echo "Initialize submodules..."
+          git submodule update --init
+
+          echo "Get version file.."
+          wget https://raw.githubusercontent.com/moodle/moodle/MOODLE_500_STABLE/version.php -O version.php
+
+          echo "Run: git submodule update --remote"
+          git submodule update --remote
+
+          # Check for changes
+          if [[ -n $(git status -s) ]]; then
+            echo "Changes detected. Committing..."
+            git add .
+            git commit -m "GitHub Actions submodule update."
+            git push origin HEAD
+          else
+            echo "No changes detected. Skipping commit."
+          fi
