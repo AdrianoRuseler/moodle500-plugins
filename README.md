@@ -53,7 +53,7 @@ $CFG->disableupdatenotifications = true;
 $CFG->preventexecpath = true;
 ```
 
-## Plugins List!  Imported from 405 - TODO!
+## Plugins List! 
 
 ### MOD
 
@@ -79,7 +79,7 @@ git submodule add -b master https://github.com/jcrodriguez-dis/moodle-mod_vpl.gi
 ```
 - https://github.com/davosmith/moodle-checklist
 ```bash
-git submodule add -b master https://github.com/davosmith/moodle-checklist.git mod/checklist
+git submodule add -b MOODLE_500_STABLE https://github.com/davosmith/moodle-checklist.git mod/checklist
 ```
 - https://github.com/projectestac/moodle-mod_geogebra
 ```bash
