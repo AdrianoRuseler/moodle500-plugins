@@ -262,3 +262,7 @@
 	path = moodle/mod/journal
 	url = https://github.com/elearningsoftware/moodle-mod_journal.git
 	branch = master
+[submodule "moodle/course/format/buttons"]
+	path = moodle/course/format/buttons
+	url = https://github.com/jrangelardila/moodle-format_buttons.git
+	branch = 5.x
