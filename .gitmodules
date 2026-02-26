@@ -178,10 +178,6 @@
 	path = moodle/admin/tool/trigger
 	url = https://github.com/catalyst/moodle-tool_trigger.git
 	branch = MOODLE_404_STABLE
-[submodule "moodle/admin/tool/dynamic_cohorts"]
-	path = moodle/admin/tool/dynamic_cohorts
-	url = https://github.com/catalyst/moodle-tool_dynamic_cohorts.git
-	branch = MOODLE_404_STABLE
 [submodule "moodle/course/format/softcourse"]
 	path = moodle/course/format/softcourse
 	url = https://github.com/DigiDago/moodle-format_softcourse.git
