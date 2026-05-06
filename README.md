@@ -229,8 +229,6 @@ git submodule add -b master https://github.com/gbateson/moodle-qtype_essayautogr
 git submodule add -b master https://github.com/trampgeek/moodle-qbehaviour_adaptive_adapted_for_coderunner.git question/behaviour/adaptive_adapted_for_coderunner
 git submodule add -b master https://github.com/trampgeek/moodle-qtype_coderunner.git question/type/coderunner
 ```
--->qtype_coderunner
-Default exception handler: Erro ao escrever na base de dados Debug: Column 'parent' cannot be null
 
 - https://github.com/moodleou/moodle-qtype_pmatch
 - https://github.com/moodleou/moodle-qtype_varnumunit
@@ -240,6 +238,29 @@ git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumericset
 git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumeric.git question/type/varnumeric
 git submodule add -b main https://github.com/moodleou/moodle-qtype_varnumunit.git question/type/varnumunit
 git submodule add -b main https://github.com/moodleou/moodle-editor_ousupsub.git lib/editor/ousupsub
+```
+
+- https://github.com/maths/moodle-qbank_importasversion
+```bash
+git submodule add -b MOODLE_500_STABLE https://github.com/maths/moodle-qbank_importasversion.git question/bank/importasversion
+```
+
+### STACK question type
+- https://github.com/maths/moodle-qbehaviour_dfexplicitvaildate
+```bash
+git submodule add -b master https://github.com/maths/moodle-qbehaviour_dfexplicitvaildate.git question/behaviour/dfexplicitvaildate
+```
+- https://github.com/maths/moodle-qbehaviour_dfcbmexplicitvaildate
+```bash
+git submodule add -b master https://github.com/maths/moodle-qbehaviour_dfcbmexplicitvaildate.git question/behaviour/dfcbmexplicitvaildate
+```
+- https://github.com/maths/moodle-qbehaviour_adaptivemultipart
+```bash
+git submodule add -b master https://github.com/maths/moodle-qbehaviour_adaptivemultipart.git question/behaviour/adaptivemultipart
+```		
+- https://github.com/maths/moodle-qtype_stack
+```bash
+git submodule add -b master https://github.com/maths/moodle-qtype_stack.git question/type/stack
 ```
 
 ### ADMIN
@@ -356,20 +377,4 @@ git submodule add -b main https://github.com/moodlehq/moodle-mod_survey.git mod/
 ```bash
 git submodule add -b MOODLE_500_STABLE https://github.com/moodleworkplace/moodle-block_rbreport.git blocks/rbreport
 ```
-## STACK question type - TODO!
-- https://github.com/maths/moodle-qbehaviour_dfexplicitvaildate
-```bash
-git submodule add -b master https://github.com/maths/moodle-qbehaviour_dfexplicitvaildate.git question/behaviour/dfexplicitvaildate
-```
-- https://github.com/maths/moodle-qbehaviour_dfcbmexplicitvaildate
-```bash
-git submodule add -b master https://github.com/maths/moodle-qbehaviour_dfcbmexplicitvaildate.git question/behaviour/dfcbmexplicitvaildate
-```
-- https://github.com/maths/moodle-qbehaviour_adaptivemultipart
-```bash
-git submodule add -b master https://github.com/maths/moodle-qbehaviour_adaptivemultipart.git question/behaviour/adaptivemultipart
-```		
-- https://github.com/maths/moodle-qtype_stack
-```bash
-git submodule add -b master https://github.com/maths/moodle-qtype_stack.git question/type/stack
-``` 
+
