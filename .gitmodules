@@ -266,3 +266,7 @@
 	path = moodle/question/bank/importasversion
 	url = https://github.com/maths/moodle-qbank_importasversion.git
 	branch = MOODLE_500_STABLE
+[submodule "moodle/question/type/vplquestion"]
+	path = moodle/question/type/vplquestion
+	url = https://github.com/AdrianoRuseler/moodle-qtype_vplquestion.git
+	branch = master
