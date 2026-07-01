@@ -270,3 +270,7 @@
 	path = moodle/question/type/vplquestion
 	url = https://github.com/AdrianoRuseler/moodle-qtype_vplquestion.git
 	branch = master
+[submodule "moodle/admin/tool/monitoring"]
+	path = moodle/admin/tool/monitoring
+	url = https://github.com/daniil-berg/moodle-tool_monitoring.git
+	branch = main
