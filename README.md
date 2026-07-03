@@ -3,7 +3,7 @@ Plugins for Moodle 5.0
 - https://moodledev.io/general/releases/5.0
 
 [![Update Moodle Plugins Submodules](https://github.com/AdrianoRuseler/moodle500-plugins/actions/workflows/update-submodules.yml/badge.svg)](https://github.com/AdrianoRuseler/moodle500-plugins/actions/workflows/update-submodules.yml)
-
+[![Create Release](https://github.com/AdrianoRuseler/moodle500-plugins/actions/workflows/release.yml/badge.svg)](https://github.com/AdrianoRuseler/moodle500-plugins/actions/workflows/release.yml)
 ## Moodle Update
 ```bash
 export MDLREPO="https://github.com/moodle/moodle.git"
