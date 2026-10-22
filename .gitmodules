@@ -174,10 +174,6 @@
 	path = moodle/admin/tool/trigger
 	url = https://github.com/catalyst/moodle-tool_trigger.git
 	branch = MOODLE_404_STABLE
-[submodule "moodle/course/format/softcourse"]
-	path = moodle/course/format/softcourse
-	url = https://github.com/DigiDago/moodle-format_softcourse.git
-	branch = MOODLE_500_STABLE
 [submodule "moodle/question/behaviour/adaptive_adapted_for_coderunner"]
 	path = moodle/question/behaviour/adaptive_adapted_for_coderunner
 	url = https://github.com/trampgeek/moodle-qbehaviour_adaptive_adapted_for_coderunner.git
